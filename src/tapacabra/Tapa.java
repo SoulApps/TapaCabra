@@ -58,6 +58,13 @@ public class Tapa {
     public void setLongitud(String longitud) {
         this.longitud = longitud;
     }
+
+    @Override
+    public String toString() {
+        return  "bar : " + bar + " , tapa : " + tapa +'.';
+    }
+
+   
             
     
     
