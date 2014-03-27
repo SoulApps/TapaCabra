@@ -4,7 +4,10 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.net.MalformedURLException;
 import java.util.ArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class TapaFileManager {
 
@@ -25,5 +28,6 @@ public class TapaFileManager {
         br.close();
         return alTapa;
     }
+    
     
 }

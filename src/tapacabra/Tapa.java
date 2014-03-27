@@ -23,7 +23,7 @@ public class Tapa {
         return bar;
     }
 
-    public void setBar(String bar) {
+    public  void setBar(String bar) {
         this.bar = bar;
     }
 
